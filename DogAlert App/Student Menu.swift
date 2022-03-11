@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Student_Menu: View {
     var body: some View {
-        NavigationView () {
+       // NavigationView () {
             ZStack {
                 LinearGradient(gradient: Gradient(colors: [Color("Maroon"),
                                                            Color.white]), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -17,6 +17,10 @@ struct Student_Menu: View {
                 VStack (spacing: 10){
                     Image(systemName: "")
                     
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
                     NavigationLink(destination: Health_Info()){ Image("Health Icon")
                             .resizable()
                             .frame(width: 225, height: 225)
@@ -38,7 +42,7 @@ struct Student_Menu: View {
             }
         }
     }
-        }
+      //  }
 
 struct Student_Menu_Previews: PreviewProvider {
     static var previews: some View {

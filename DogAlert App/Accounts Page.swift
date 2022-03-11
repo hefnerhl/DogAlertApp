@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Accounts_Page: View {
     var body: some View {
-        NavigationView () {
+      //  NavigationView () {
             ZStack {
                 LinearGradient(gradient: Gradient(colors: [Color("Maroon"),
                                                            Color.white]), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -41,7 +41,7 @@ struct Accounts_Page: View {
         }
     }
 
-}
+//}
 
 struct Accounts_Page_Previews: PreviewProvider {
     static var previews: some View {
