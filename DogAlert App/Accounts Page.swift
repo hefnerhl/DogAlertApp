@@ -36,7 +36,7 @@ struct Accounts_Page: View {
                         
                     }
                 }
-                .navigationBarHidden(true)
+               // .navigationBarHidden(true)
             }
         }
     }

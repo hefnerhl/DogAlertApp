@@ -13,12 +13,14 @@
 		897BFC6227DA80B100C96465 /* Admin Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BFC6127DA80B100C96465 /* Admin Menu.swift */; };
 		897BFC7E27DA9B0900C96465 /* Health Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BFC7D27DA9B0900C96465 /* Health Info.swift */; };
 		897BFC8027DA9B3800C96465 /* Alert Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BFC7F27DA9B3800C96465 /* Alert Page.swift */; };
-		897BFC8227DA9B5100C96465 /* Text a Nurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BFC8127DA9B5100C96465 /* Text a Nurse.swift */; };
 		89B88AFB27DA451100111ABF /* DogAlert_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B88AFA27DA451100111ABF /* DogAlert_AppApp.swift */; };
 		89B88AFD27DA451100111ABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B88AFC27DA451100111ABF /* ContentView.swift */; };
 		89B88AFF27DA451500111ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B88AFE27DA451500111ABF /* Assets.xcassets */; };
 		89B88B0227DA451500111ABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B88B0127DA451500111ABF /* Preview Assets.xcassets */; };
 		89B88B0A27DA4A8D00111ABF /* Chalkboy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89B88B0927DA4A8D00111ABF /* Chalkboy.otf */; };
+		89D9E91127DBCB0F00CABD0E /* Text a Nurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E91027DBCB0F00CABD0E /* Text a Nurse.swift */; };
+		89D9E91327DBDF7E00CABD0E /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E91227DBDF7E00CABD0E /* ChatRow.swift */; };
+		89D9E91527DBE63200CABD0E /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E91427DBE63200CABD0E /* ChatController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +30,6 @@
 		897BFC6127DA80B100C96465 /* Admin Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Admin Menu.swift"; sourceTree = "<group>"; };
 		897BFC7D27DA9B0900C96465 /* Health Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health Info.swift"; sourceTree = "<group>"; };
 		897BFC7F27DA9B3800C96465 /* Alert Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Page.swift"; sourceTree = "<group>"; };
-		897BFC8127DA9B5100C96465 /* Text a Nurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text a Nurse.swift"; sourceTree = "<group>"; };
 		89B88AF727DA451100111ABF /* DogAlert App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DogAlert App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B88AFA27DA451100111ABF /* DogAlert_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAlert_AppApp.swift; sourceTree = "<group>"; };
 		89B88AFC27DA451100111ABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,9 @@
 		89B88B0127DA451500111ABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89B88B0927DA4A8D00111ABF /* Chalkboy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboy.otf; sourceTree = "<group>"; };
 		89B88B0D27DA4DB000111ABF /* DogAlert-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DogAlert-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		89D9E91027DBCB0F00CABD0E /* Text a Nurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text a Nurse.swift"; sourceTree = "<group>"; };
+		89D9E91227DBDF7E00CABD0E /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		89D9E91427DBE63200CABD0E /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,9 @@
 				897BFC5B27DA776500C96465 /* Accounts Page.swift */,
 				897BFC5D27DA7F4A00C96465 /* Student Menu.swift */,
 				897BFC7F27DA9B3800C96465 /* Alert Page.swift */,
-				897BFC8127DA9B5100C96465 /* Text a Nurse.swift */,
+				89D9E91027DBCB0F00CABD0E /* Text a Nurse.swift */,
+				89D9E91427DBE63200CABD0E /* ChatController.swift */,
+				89D9E91227DBDF7E00CABD0E /* ChatRow.swift */,
 				897BFC7D27DA9B0900C96465 /* Health Info.swift */,
 				897BFC5F27DA809D00C96465 /* Faculty Menu.swift */,
 				897BFC6127DA80B100C96465 /* Admin Menu.swift */,
@@ -172,14 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D9E91527DBE63200CABD0E /* ChatController.swift in Sources */,
 				897BFC8027DA9B3800C96465 /* Alert Page.swift in Sources */,
 				897BFC7E27DA9B0900C96465 /* Health Info.swift in Sources */,
-				897BFC8227DA9B5100C96465 /* Text a Nurse.swift in Sources */,
+				89D9E91127DBCB0F00CABD0E /* Text a Nurse.swift in Sources */,
 				89B88AFD27DA451100111ABF /* ContentView.swift in Sources */,
 				897BFC6027DA809D00C96465 /* Faculty Menu.swift in Sources */,
 				897BFC5E27DA7F4A00C96465 /* Student Menu.swift in Sources */,
 				89B88AFB27DA451100111ABF /* DogAlert_AppApp.swift in Sources */,
 				897BFC5C27DA776500C96465 /* Accounts Page.swift in Sources */,
+				89D9E91327DBDF7E00CABD0E /* ChatRow.swift in Sources */,
 				897BFC6227DA80B100C96465 /* Admin Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
